@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -27,6 +27,7 @@
     background-color: var(--background);
     align-items: center;
     z-index: 10;
+
     >a {
         display: flex;
         align-items: center;
@@ -54,6 +55,7 @@
         .list_item {
             list-style: none;
             padding: 1.2rem .4rem;
+
             >a {
                 position: relative;
                 top: 0%;
@@ -79,6 +81,7 @@
             }
         }
     }
+
     >span {
 
         >a {
@@ -88,10 +91,12 @@
             margin-left: .4rem;
             color: white;
             background: linear-gradient(90deg, var(--primary), var(--secondary));
+
             &:hover {
                 opacity: .8;
             }
         }
+
         .menu {
             position: relative;
             display: none;
@@ -117,6 +122,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     .content_box {
         margin-bottom: 50px;
         width: 460px;
@@ -221,6 +227,7 @@
             position: absolute;
             top: 0%;
             left: 0%;
+
             >h5 {
                 color: var(--background-sec);
                 border-radius: 1rem;
@@ -231,6 +238,7 @@
                 left: -8rem;
                 background: rgb(6, 173, 0);
                 transform-origin: right bottom;
+
                 &:nth-child(1) {
                     border-bottom-right-radius: 1rem;
                     border-bottom-left-radius: 0%;
@@ -277,10 +285,14 @@
     0% {
         left: -100%;
     }
-    8%,10% {
+
+    8%,
+    10% {
         left: 100%;
     }
-    18%,100%{
+
+    18%,
+    100% {
         left: -100%;
     }
 }
@@ -289,6 +301,7 @@
     0% {
         filter: hue-rotate(0deg);
     }
+
     100% {
         filter: hue-rotate(360deg);
     }
@@ -298,9 +311,11 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.04);
     }
+
     100% {
         transform: scale(1);
     }
@@ -309,20 +324,24 @@
 .what_bootcamp {
     padding-top: 4rem;
     margin: auto;
+
     .what_bootcamp_wrapper {
         text-align: center;
         margin: 0rem auto 4rem auto;
         max-width: 786px;
+
         h2 {
             margin-top: 1rem;
             font-size: 2rem;
             color: var(--primary2);
         }
+
         p {
             padding: 2rem 0;
             font-weight: 600;
             color: var(--secondary-text);
         }
+
         a {
             width: -webkit-max-content;
             width: -moz-max-content;
@@ -334,8 +353,70 @@
             padding: 0.6rem 1.4rem;
             margin-top: 1rem;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
             &:hover {
                 opacity: 0.8;
+            }
+        }
+    }
+}
+
+.what_coding .what_coding_wrapper {
+    margin: auto;
+
+    h2 {
+        color: var(--primary2);
+        font-size: 2rem;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: auto;
+    }
+
+    .what_coding_list {
+        padding: 4rem 2rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+
+        .what_coding_item {
+            padding: 0rem 1rem;
+            min-height: 200px;
+            height: 100%;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            border-radius: 1rem;
+            background: var(--background-sec);
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+            .what_coding_image {
+                margin: 1rem;
+                height: 120px;
+                width: 120px;
+                flex-shrink: 0;
+                background-color: darkblue;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .what_coding_content {
+                max-width: 340px;
+                padding: 2rem 1rem;
+
+                h3 {
+                    font-size: 1.4rem;
+                    color: var(--primary2);
+                }
+
+                p {
+                    color: var(--secondary-text);
+                    font-size: 14px;
+                }
             }
         }
     }
