@@ -356,4 +356,50 @@
 .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_content p {
   color: var(--secondary-text);
   font-size: 14px;
+}
+
+.recalling .recalling_wrapper {
+  position: relative;
+  margin: 4rem auto 0 auto;
+  width: 84%;
+  background-color: var(--primary);
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  background: var(--background-sec);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.recalling .recalling_wrapper h2 {
+  color: var(--secondary);
+  font-size: 2rem;
+}
+.recalling .recalling_wrapper h4 {
+  color: var(--primary2);
+  font-size: 1.2rem;
+}
+.recalling .recalling_wrapper > div {
+  padding: 1rem 0;
+}
+.recalling .recalling_wrapper > div h6 {
+  color: var(--secondary-text);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.recalling .recalling_wrapper > div h6 i {
+  margin: 0% 4px;
+  border-radius: 50%;
+  color: rgb(9, 255, 0);
+}
+.recalling .recalling_wrapper a {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-30%, -50%);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background: linear-gradient(30deg, var(--primary), var(--secondary));
+  border-radius: 2rem;
+  padding: 0.6rem 1.4rem;
+}
+.recalling .recalling_wrapper a:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */
