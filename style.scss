@@ -474,3 +474,96 @@
         }
     }
 }
+
+.program {
+    padding-top: 4rem;
+
+    .program_wrapper {
+        padding: 2rem;
+
+        >h2 {
+            width: -webkit-max-content;
+            width: -moz-max-content;
+            width: max-content;
+            margin: auto;
+            font-size: 2rem;
+            color: var(--primary2);
+        }
+
+        .program_list {
+            .program_item {
+                display: flex;
+                list-style: none;
+                margin: 2rem 0rem;
+                align-items: center;
+                padding: 2rem;
+                border-radius: 1rem;
+                background: #ffffff;
+                border: 1px solid rgba(240, 171, 10, 0.4);
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+                }
+
+                .program_img {
+                    height: 340px;
+                    width: 50%;
+                    border-radius: 1rem;
+                    background-color: var(--background-sec);
+                    text-align: center;
+                    
+                    img {
+                        border-radius: 1rem;
+                        height: auto;
+                        max-height: 100%;
+                        width: auto;
+                        max-width: 100%;
+                    }
+                }
+
+                .program_content {
+                    padding: 0% 1rem;
+                    margin: 1rem 2rem;
+                    width: 50%;
+                    
+                    h2 {
+                        font-size: 1.6rem;
+                        color: var(--primary2);
+                    }
+                    
+                    p {
+                        color: var(--secondary-text);
+                        padding: 1rem 0;
+                    }
+                    
+                    a {
+                        padding: 0.4rem 1rem;
+                        background: var(--secondary);
+                        border-radius: 2rem;
+                        color: var(--background);
+                        text-decoration: none;
+                        
+                        &:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                    
+                    span {
+                        display: inline-block;
+                        padding: 0.2rem 1rem;
+                        margin-top: 0.6rem;
+                        margin-right: 0.4rem;
+                        border-radius: 1rem;
+                        color: var(--background);
+                        background-color: var(--primary2);
+                        cursor: default;
+                        
+                        del {
+                            color: var(--background);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
