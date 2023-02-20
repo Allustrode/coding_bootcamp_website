@@ -511,7 +511,7 @@
                     border-radius: 1rem;
                     background-color: var(--background-sec);
                     text-align: center;
-                    
+
                     img {
                         border-radius: 1rem;
                         height: auto;
@@ -525,29 +525,29 @@
                     padding: 0% 1rem;
                     margin: 1rem 2rem;
                     width: 50%;
-                    
+
                     h2 {
                         font-size: 1.6rem;
                         color: var(--primary2);
                     }
-                    
+
                     p {
                         color: var(--secondary-text);
                         padding: 1rem 0;
                     }
-                    
+
                     a {
                         padding: 0.4rem 1rem;
                         background: var(--secondary);
                         border-radius: 2rem;
                         color: var(--background);
                         text-decoration: none;
-                        
+
                         &:hover {
                             opacity: 0.8;
                         }
                     }
-                    
+
                     span {
                         display: inline-block;
                         padding: 0.2rem 1rem;
@@ -557,12 +557,86 @@
                         color: var(--background);
                         background-color: var(--primary2);
                         cursor: default;
-                        
+
                         del {
                             color: var(--background);
                         }
                     }
                 }
+            }
+        }
+
+        .programing_lang_list {
+            padding: 4rem 0;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .programing_lang_item {
+                width: 500px;
+                list-style: none;
+                padding: 2rem;
+                margin-top: 2rem;
+                border-radius: 1rem;
+                background-color: var(--background-sec);
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                .programing_lang_image {
+                    height: 200px;
+                    width: auto;
+                    margin: 1rem 0;
+                    border-radius: 1rem;
+                    background-color: rgb(255, 255, 255);
+                    text-align: center;
+
+                    img {
+                        height: 100%;
+                        border-radius: 1rem;
+                        width: auto;
+                        max-width: 100%;
+                    }
+                }
+
+                h3 {
+                    color: var(--primary);
+                    font-size: 1.4rem;
+                    text-transform: uppercase;
+                    padding: 10px 0;
+                }
+
+                p {
+                    color: var(--secondary-text);
+                    font-size: 14px;
+                    padding: 1rem 0;
+                }
+
+                a {
+                    padding: 0.4rem 1rem;
+                    background: var(--secondary);
+                    border-radius: 2rem;
+                    color: var(--background);
+                    text-decoration: none;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+                span {
+                    display: inline-block;
+                    padding: 0.3rem 1rem;
+                    margin-left: 0.6rem;
+                    border-radius: 1rem;
+                    color: var(--background);
+                    background-color: var(--primary2);
+                    cursor: default;
+
+                    del {
+                        color: var(--background);
+                    }
+                }
+
             }
         }
     }
