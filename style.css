@@ -542,4 +542,52 @@
 }
 .program .program_wrapper .programing_lang_list .programing_lang_item span del {
   color: var(--background);
+}
+
+.teacher > h2 {
+  padding: 2rem 0rem;
+  color: var(--primary2);
+  font-size: 2rem;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+.teacher .teacher_wrapper {
+  margin: auto;
+  padding: 4rem 2rem;
+  max-width: 980px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.teacher .teacher_wrapper .card {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+.teacher .teacher_wrapper .card > .image {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+}
+.teacher .teacher_wrapper .card > .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.teacher .teacher_wrapper .card > h3 {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  padding-top: 16px;
+  text-transform: uppercase;
+}
+.teacher .teacher_wrapper .card p {
+  font-size: 12px;
+  color: var(--secondary-text);
 }/*# sourceMappingURL=style.css.map */
