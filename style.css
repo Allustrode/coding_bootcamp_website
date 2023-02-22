@@ -590,4 +590,73 @@
 .teacher .teacher_wrapper .card p {
   font-size: 12px;
   color: var(--secondary-text);
+}
+
+.testimonial {
+  padding: 4rem 0rem;
+}
+.testimonial h2 {
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  color: var(--primary2);
+  font-size: 2rem;
+}
+.testimonial .testimonial_wrapper {
+  max-width: 940px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  overflow-x: scroll;
+}
+.testimonial .testimonial_wrapper::-webkit-scrollbar {
+  display: none;
+}
+.testimonial .testimonial_wrapper .testimonial_item {
+  display: flex;
+  margin-right: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  width: 540px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: var(--background-sec);
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_image {
+  margin: 0rem 1rem;
+  height: 70px;
+  width: 70px;
+  background-color: var(--secondary-text);
+  border-radius: 50%;
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_image img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_content {
+  position: relative;
+  width: 400px;
+  padding: 1rem;
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_content::before {
+  content: "";
+  height: 100px;
+  width: 2px;
+  position: absolute;
+  top: 50%;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  left: 0%;
+  opacity: 0.3;
+  background-color: var(--secondary-text);
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_content h4 {
+  color: var(--primary2);
+  font-size: 14px;
+}
+.testimonial .testimonial_wrapper .testimonial_item .testimonial_content p {
+  color: var(--secondary-text);
+  font-size: 12px;
+  padding: 4px;
 }/*# sourceMappingURL=style.css.map */

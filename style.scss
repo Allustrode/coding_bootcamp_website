@@ -699,3 +699,83 @@
         }
     }
 }
+
+.testimonial {
+    padding: 4rem 0rem;
+
+    h2 {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: auto;
+        color: var(--primary2);
+        font-size: 2rem;
+    }
+
+    .testimonial_wrapper {
+        max-width: 940px;
+        margin: auto;
+        padding: 2rem 1rem;
+        display: flex;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .testimonial_item {
+            display: flex;
+            margin-right: 2rem;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 1rem;
+            width: 540px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            background-color: var(--background-sec);
+
+            .testimonial_image {
+                margin: 0rem 1rem;
+                height: 70px;
+                width: 70px;
+                background-color: var(--secondary-text);
+                border-radius: 50%;
+
+                img {
+                    border-radius: 50%;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .testimonial_content {
+                position: relative;
+                width: 400px;
+                padding: 1rem;
+
+                &::before {
+                    content: "";
+                    height: 100px;
+                    width: 2px;
+                    position: absolute;
+                    top: 50%;
+                    border-radius: 2px;
+                    transform: translateY(-50%);
+                    left: 0%;
+                    opacity: 0.3;
+                    background-color: var(--secondary-text);
+                }
+
+                h4 {
+                    color: var(--primary2);
+                    font-size: 14px;
+                }
+
+                p {
+                    color: var(--secondary-text);
+                    font-size: 12px;
+                    padding: 4px;
+                }
+            }
+        }
+    }
+}
