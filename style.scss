@@ -779,3 +779,85 @@
         }
     }
 }
+
+.map {
+    h2 {
+        font-size: 2rem;
+        color: var(--primary2);
+        text-align: center;
+    }
+
+    div {
+        position: relative;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        margin: 4rem auto 2rem auto;
+
+        img {
+            width: 90vw;
+            max-width: 800px;
+            height: auto;
+        }
+
+        h6 {
+            position: absolute;
+            display: inline;
+            top: 0%;
+            left: 0%;
+            font-weight: 600;
+            color: var(--secondary-text);
+        }
+
+        h6#un {
+            top: 28%;
+            left: 12%;
+        }
+
+        h6#in {
+            top: 36%;
+            left: 65%;
+        }
+
+        h6#it {
+            top: 21%;
+            left: 48%;
+        }
+
+        h6#me {
+            top: 36%;
+            left: 10%;
+        }
+
+        h6#sp {
+            top: 26%;
+            left: 43%;
+        }
+
+        h6#so {
+            top: 74%;
+            left: 49%;
+        }
+
+        h6#au {
+            top: 70%;
+            left: 81%;
+        }
+
+        h6::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 4px;
+            left: -16px;
+            top: 0%;
+            background: var(--primary);
+            border: 4px solid var(--secondary);
+            border-radius: 50%;
+            border-bottom-right-radius: 0%;
+            transform: rotate(45deg);
+            -webkit-animation: text-entry 10s linear infinite;
+            animation: text-entry 10s linear infinite;
+        }
+    }
+}
