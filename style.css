@@ -272,6 +272,20 @@
     transform: scale(1);
   }
 }
+@keyframes text-entry {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  4% {
+    top: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: 0%;
+    opacity: 1;
+  }
+}
 .what_bootcamp {
   padding-top: 4rem;
   margin: auto;
