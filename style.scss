@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
     transition: .2s;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -323,18 +324,20 @@
 
 @keyframes text-entry {
     0% {
-      top: -20px;
-      opacity: 0;
+        top: -20px;
+        opacity: 0;
     }
+
     4% {
-      top: 0%;
-      opacity: 1;
+        top: 0%;
+        opacity: 1;
     }
+
     100% {
-      top: 0%;
-      opacity: 1;
+        top: 0%;
+        opacity: 1;
     }
-  }
+}
 
 .what_bootcamp {
     padding-top: 4rem;
@@ -874,5 +877,106 @@
             -webkit-animation: text-entry 10s linear infinite;
             animation: text-entry 10s linear infinite;
         }
+    }
+}
+
+
+.footer {
+    padding-top: 5rem;
+
+    .footer_content {
+        margin: 0% 4rem;
+
+        .about_organisation {
+            width: 70%;
+            padding: 1rem 2rem;
+            margin: 0rem auto 2rem auto;
+            border-radius: 1rem;
+            background-color: var(--primary2);
+
+
+            h3 {
+                color: var(--background);
+                width: -webkit-max-content;
+                width: -moz-max-content;
+                width: max-content;
+                margin: auto;
+            }
+
+            p {
+                text-align: center;
+                padding: 1rem 2rem;
+                color: var(--background-sec);
+                font-size: 0.8rem;
+            }
+        }
+
+        .footer_wrapper {
+            width: auto;
+            padding: 2rem 0;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+            ul {
+                margin: auto;
+
+
+                li {
+                    list-style: none;
+
+
+                    h4 {
+                        color: var(--primary);
+                        padding: 8px 0rem;
+                    }
+
+                    a,
+                    a i {
+                        color: var(--primary-text);
+                        text-decoration: none;
+
+
+                        &:hover,
+                        &:hover i,
+                        i:hover,
+                        i:hover i {
+                            color: var(--primary);
+                        }
+                    }
+                }
+            }
+
+            .footer_logo {
+
+                .web_logo,
+                a {
+                    display: flex;
+                    align-items: center;
+                    flex-flow: column;
+                    color: var(--primary-text);
+                    font-size: 1.2rem;
+                    font-weight: 600;
+
+                    &:hover {
+                        opacity: 0.8;
+                        color: var(--primary-text);
+                    }
+
+                    img {
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        font-family: sans-serif;
+        padding: 1rem 0;
+        font-size: 14px;
+        color: var(--secondary-text);
+        text-align: center;
     }
 }
