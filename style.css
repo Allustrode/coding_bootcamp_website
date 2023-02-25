@@ -17,6 +17,23 @@
   --background-sec: #ffffff;
 }
 
+::-moz-selection {
+  background: var(--primary2);
+  color: var(--background-sec);
+}
+
+::selection {
+  background: var(--primary2);
+  color: var(--background-sec);
+}
+
+body {
+  background: url("images/bg.png");
+  background-size: 100% auto;
+  margin: auto;
+  max-width: 1440px;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -823,4 +840,81 @@
   font-size: 14px;
   color: var(--secondary-text);
   text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+  .navbar .list {
+    padding: 0% 2rem;
+    padding-top: 6rem;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: -moz-max-content;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: var(--primary2);
+  }
+  .navbar .list .list_item a {
+    color: var(--background-sec);
+  }
+  .navbar .list_toggle {
+    transform: translateX(-100%);
+  }
+  .navbar span {
+    display: flex;
+    align-items: center;
+  }
+  .navbar span a {
+    border-radius: 4rem;
+  }
+  .navbar span .menu {
+    margin-left: 1rem;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .home {
+    padding: 0% 2rem;
+    padding-top: 5rem;
+    justify-content: space-between;
+  }
+  .home .image {
+    bottom: 2rem;
+  }
+  .home .image img {
+    width: 310px;
+  }
+  .home .content_box {
+    width: 405px;
+  }
+  .home .image .image_overlay > h5 {
+    font-size: 0.6rem;
+  }
+  .home .image .image_overlay > h5:nth-child(1) {
+    left: 8rem;
+    top: -2rem;
+  }
+  .home .image .image_overlay > h5:nth-child(3) {
+    left: -5rem;
+  }
+  .home .image .image_overlay > h5:nth-child(4) {
+    left: -6rem;
+  }
+  .home .image .image_overlay > h5:nth-child(5) {
+    left: -4rem;
+  }
+  .program .program_wrapper .programing_lang_list .programing_lang_item {
+    width: auto;
+    max-width: 359px;
+  }
+  .footer .footer_content .footer_wrapper {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2em;
+  }
+  .footer .footer_content .footer_wrapper ul,
+  .footer .footer_content .footer_wrapper .footer_logo .web_logo {
+    width: 154px;
+  }
 }/*# sourceMappingURL=style.css.map */
