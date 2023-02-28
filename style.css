@@ -1085,4 +1085,215 @@ body {
   .footer .footer_content .footer_wrapper .footer_logo .web_logo {
     width: auto;
   }
+}
+@media screen and (max-width: 600px) {
+  .navbar span a {
+    display: none;
+  }
+  .home .content_box h1 {
+    font-size: 2.2rem;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item {
+    min-height: 138px;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_image {
+    height: 100px;
+    width: 100px;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_content h3 {
+    font-size: 1rem;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_content p {
+    font-size: 12px;
+  }
+  .recalling .recalling_wrapper {
+    padding: 1rem;
+  }
+  .recalling .recalling_wrapper h2 {
+    font-size: 1.4rem;
+  }
+  .recalling .recalling_wrapper h4 {
+    font-size: 0.8rem;
+  }
+  .recalling .recalling_wrapper > div {
+    padding-bottom: 1rem;
+  }
+  .recalling .recalling_wrapper > div h6 {
+    font-size: 0.6rem;
+  }
+  .recalling .recalling_wrapper a {
+    position: static;
+    padding: 0.4rem 1rem;
+    font-size: 74%;
+  }
+  .program .program_wrapper {
+    padding: 0% 1rem;
+  }
+  .program .program_wrapper .program_list .program_item {
+    display: "block";
+    float: left;
+    padding: 1rem 0%;
+    margin: 1rem 0%;
+  }
+  .program .program_wrapper .program_list .program_item .program_img {
+    height: 200px;
+  }
+  .program .program_wrapper .program_list .program_item .program_content {
+    margin: 0.8rem;
+  }
+  .program .program_wrapper .program_list .program_item .program_content a,
+  .program .program_wrapper .program_list .program_item .program_content span {
+    padding: 0.16rem 0.8rem;
+    font-size: 70%;
+  }
+  .program .program_wrapper .program_list .program_item .program_content a {
+    padding: 0.2rem 0.8rem;
+  }
+  .program .program_wrapper .program_list .program_item .program_content h2 {
+    font-size: 1rem;
+  }
+  .program .program_wrapper .program_list .program_item .program_content p {
+    font-size: 68%;
+  }
+  .program .program_wrapper .programing_lang_list .programing_lang_item {
+    margin: 0%;
+    margin-top: 2rem;
+  }
+  .program .program_wrapper .programing_lang_list .programing_lang_item a {
+    font-size: 70%;
+  }
+  .teacher .teacher_wrapper {
+    padding: 0% 1rem;
+    gap: 0rem;
+  }
+  .teacher .teacher_wrapper .card > .image {
+    height: 100px;
+    width: 100px;
+  }
+  .teacher .teacher_wrapper .card > h3 {
+    font-size: 0.8rem;
+  }
+  .testimonial {
+    padding: 2rem 0%;
+  }
+  .testimonial .testimonial_wrapper .testimonial_item .testimonial_content {
+    padding: 0.4rem 1rem;
+  }
+  .testimonial .testimonial_wrapper .testimonial_item .testimonial_image {
+    height: 60px;
+    width: 60px;
+  }
+  .testimonial .testimonial_wrapper .testimonial_item .testimonial_content h4 {
+    font-size: 13px;
+  }
+  .testimonial .testimonial_wrapper .testimonial_item .testimonial_content p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .home {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .home .image img {
+    width: 240px;
+  }
+  .home .image .image_overlay > h5 {
+    padding: 4px 10px;
+    font-weight: 400;
+  }
+  .home .content_box h1 {
+    font-size: 1.6rem;
+  }
+  .home .image .image_overlay > h5:nth-child(3) {
+    left: -3rem;
+  }
+  .home .image .image_overlay > h5:nth-child(4) {
+    left: -4rem;
+  }
+  .home .image .image_overlay > h5:nth-child(5) {
+    left: -3rem;
+  }
+  .home .image .image_overlay > h5:nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+  }
+  .navbar .list {
+    padding: 0% 0.8rem;
+    padding-top: 6rem;
+  }
+  .navbar a {
+    margin: 0%;
+    font-size: 16px;
+  }
+  .navbar a img {
+    margin-right: 0.4rem;
+  }
+  .navbar span a {
+    display: none;
+  }
+  .program .program_wrapper .program_list .program_item .program_img {
+    height: 140px;
+    width: 40%;
+  }
+  .program .program_wrapper .program_list .program_item .program_content {
+    width: 60%;
+    margin: 0%;
+  }
+  .program .program_wrapper .programing_lang_list {
+    padding: 0%;
+  }
+  .program .program_wrapper > h2 {
+    font-size: 1.2rem;
+  }
+  .program .program_wrapper > h2 {
+    width: auto;
+    text-align: center;
+  }
+  .teacher > h2 {
+    font-size: 1.2rem;
+  }
+  .testimonial h2 {
+    font-size: 1.2rem;
+  }
+  .what_coding .what_coding_wrapper h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .map h2 {
+    font-size: 1.2rem;
+    padding-inline: 0.4em;
+  }
+  .footer {
+    font-size: 90%;
+  }
+  .footer .footer_content .about_organisation p {
+    padding: 1rem;
+  }
+  .footer .copyright {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .home .content_box h1 {
+    font-size: 1.4rem;
+  }
+  .teacher .teacher_wrapper .card > .image {
+    height: 80px;
+    width: 80px;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_image {
+    height: 80px;
+    width: 80px;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_content h3 {
+    font-size: 0.8rem;
+  }
+  .what_coding .what_coding_wrapper .what_coding_list .what_coding_item .what_coding_content p {
+    font-size: 10px;
+  }
+  .program .program_wrapper .program_list .program_item .program_img {
+    height: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */
